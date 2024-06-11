@@ -1,0 +1,60 @@
+html {
+    font-size : 15px;
+}
+h2, h3 {
+    color:black;
+    font-size: 1rem;
+}
+
+.container {
+    display: flex;
+    height: auto;
+    background-color: #f0f0f0;
+    flex-wrap: wrap;
+}
+
+.calculator {
+
+
+    text-align: left;
+    margin: 10px auto;
+    height: auto;
+    background: grey;
+    border:5px solid black;
+    padding : 10px;
+}
+form {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 10px;
+}
+
+input, button  {
+
+    width: 50%;
+    margin: 10px;
+    font-size: 0.75rem;
+    text-align: center;
+    border-radius: 10px;
+}
+button {
+    cursor: pointer;
+}
+
+.error_message {
+    color: red;
+    max-width: 100%;
+    text-align: left;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.note {
+    font-size:0.75rem;
+}
+
+label {
+    font-size :1.25rem;
+
+}
